@@ -11,7 +11,7 @@ In this project, you will apply the skills you have acquired in this course to d
 
 ## Step 1: Build the PID controller object
 The screenshot is shown as follows. The car does not move in the simulation.
-![](./project/img/c6_step1.png)
+![](./project/pid_controller/screenshot//c6_step1.png)
 
 ## Step 2 & 3: PID controller for throttle and steer
 Tuned the parameters of the pid many times but cannot get a perfect trajectory. The best result I have got is set by the following parameters
@@ -23,9 +23,9 @@ Tuned the parameters of the pid many times but cannot get a perfect trajectory. 
 ## Questions
 
 ## Add the plots to your report and explain them (describe what you see)
-![](./project/img/step4_1a.png)
-![](./project/img/step4_1b.png)
-![](./project/img/step4_1c.png)
+![](./project/pid_controller/screenshot//step4_1a.png)
+![](./project/pid_controller/screenshot//step4_1b.png)
+![](./project/pid_controller/screenshot//step4_1c.png)
 
 As it can be seen in the graphs and the table, both the error from the throttle and error from the steering is being corrected during iterations. But the steering controller seems to produce lots of overshooting.
 
